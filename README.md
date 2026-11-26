@@ -1,40 +1,94 @@
-# MK-BPX: balanced partition crossover for the p-median problem
+# MK-BPX: Balanced Partition Crossover for the p-Median Problem
 
-Code, data, run-level logs and manuscript of the study
-**"Balanced Partition Crossover for the p-Median Problem: A Multi-Kick Memetic Algorithm"**
-(F. A. Rivero Sotelo, N. D. Montes Villalba, H. E. Hernández Riaño, J. M. López Pereira — Universidad de Córdoba, Colombia).
+**MK-BPX** es un algoritmo memético para el problema de la *p-mediana*, basado en cruce por
+particiones balanceadas y búsqueda local multi-kick. Este repositorio contiene el código, los datos
+de instancias, los registros experimentales y el manuscrito del estudio **“Balanced Partition
+Crossover for the p-Median Problem: A Multi-Kick Memetic Algorithm”**, de F. A. Rivero Sotelo,
+N. D. Montes Villalba, H. E. Hernández Riaño y J. M. López Pereira (Universidad de Córdoba,
+Colombia).
 
-> **English quick start.** `pip install -r requirements.txt`, then `python tests/smoke_test.py`
-> (≈1 min, must end with `ALL CHECKS PASSED`). Run the algorithm with
-> `python run_mkbpx.py fl1400 --p 100 --time 10`. Regenerate every number, table and figure of the
-> paper from the shipped logs with `python experiments/analyze.py`, `python experiments/analyze_sota.py`
-> and `python experiments/analyze_orig.py`. Section 5 below maps every table and figure of the paper
-> to the command that produces it. The rest of this file is in Spanish.
+**English.** MK-BPX is a multi-kick memetic algorithm for the p-median problem. This repository
+includes the implementation, instance data, experiment logs, and the study manuscript.
 
-Este repositorio es autocontenido: no necesita conexión a internet para ejecutar el algoritmo, repetir
-los experimentos propios o regenerar las cifras, tablas y figuras del artículo. La única pieza externa
-es el programa original POPSTAR de Resende y Werneck, que es de sus autores y **no se redistribuye**:
-se descarga y compila con un comando (sección 7).
+El algoritmo y los análisis incluidos se pueden ejecutar sin conexión después de instalar las
+dependencias. El único componente externo es el programa original POPSTAR de Resende y Werneck:
+no se redistribuye y debe descargarse y compilarse por separado (sección 7).
+
+## Inicio rápido
+
+Requiere Python 3.10 o superior. Desde una terminal, clona este repositorio e instala las dependencias:
+
+```bash
+git clone https://github.com/innelsonn/MK-BPX.git
+cd MK-BPX
+python -m venv .venv
+```
+
+Activa el entorno virtual con el comando correspondiente a tu terminal:
+
+```bash
+# Linux / macOS (bash o zsh)
+source .venv/bin/activate
+```
+
+```powershell
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+```
+
+Instala las dependencias y verifica la instalación:
+
+```bash
+python -m pip install -r requirements.txt
+python tests/smoke_test.py
+```
+
+La prueba tarda cerca de un minuto y debe terminar con `ALL CHECKS PASSED`.
+
+Ejecuta una instancia incluida:
+
+```bash
+python run_mkbpx.py fl1400 --p 100 --time 10
+```
+
+La primera ejecución compila código con Numba y puede tardar unos segundos adicionales. Todos los
+comandos se ejecutan desde la raíz del repositorio, salvo cuando se indique lo contrario.
+
+## Contenido
+
+- [Inicio rápido](#inicio-rápido)
+- [Instalación](#1-instalación)
+- [Estructura del repositorio](#2-estructura)
+- [Ejecutar el algoritmo](#3-ejecutar-el-algoritmo)
+- [Campañas experimentales](#4-las-campañas-experimentales)
+- [Reproducir resultados](#5-cómo-reproducir-cada-resultado-del-artículo)
+- [Segunda campaña: PopStar reimplementado](#6-segunda-campaña-popstar-reimplementado)
+- [Tercera campaña: POPSTAR original](#7-tercera-campaña-el-programa-popstar-original)
+- [Trazas y repetición](#8-trazas-completas-y-repetición-exacta-de-una-corrida)
+- [Formato de los registros](#9-formato-de-los-registros)
+- [Reproducibilidad](#10-reproducibilidad)
+- [Datos, procedencia y licencias](#11-procedencia-de-los-datos-y-licencias)
 
 ---
 
 ## 1. Instalación
 
-Requiere Python 3.10 o superior (el artículo usó Python 3.13, NumPy 2.5 y Numba 0.68).
+Requiere Python 3.10 o superior (los experimentos del artículo usaron Python 3.13, NumPy 2.5 y
+Numba 0.68). Si aún no lo hiciste, sigue los pasos de [Inicio rápido](#inicio-rápido). En Windows,
+la activación de `.venv` puede requerir permitir scripts en PowerShell; también puedes ejecutar
+`.venv\Scripts\python.exe` directamente sin activar el entorno.
 
 ```bash
-git clone https://github.com/ferminriv20/HGA-EBMKI.git
-cd HGA-EBMKI
-python -m venv .venv && source .venv/bin/activate     # opcional
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python tests/smoke_test.py
 ```
 
-La prueba tarda cerca de un minuto y debe terminar con `ALL CHECKS PASSED`. La primera ejecución de
-cualquier script compila el código con Numba y tarda unos segundos más. **Todos los comandos se
-ejecutan desde la raíz del repositorio.**
+Los comandos de campañas que usan `&` y `wait` están escritos para Bash en Linux/macOS. En Windows,
+ejecuta esos procesos desde terminales separadas o usa un entorno Bash.
 
 ## 2. Estructura
+
+La estructura principal del repositorio es:
 
 ```
 ├── README.md, LICENSE, CITATION.cff, requirements.txt
@@ -339,4 +393,7 @@ al mejor valor entre el publicado y el hallado en cualquier corrida (`experiment
   Duran-Mateluna, Ales y Elloumi (2023), en `mkbpx/instances.py`.
 - **POPSTAR:** M. G. C. Resende y R. F. Werneck, *A hybrid heuristic for the p-median problem*,
   Journal of Heuristics 10:59–88, 2004. No se incluye; ver sección 7.1.
-- **Código de este repositorio:** licencia MIT (`LICENSE`). Para citar, ver `CITATION.cff`.
+- **Código de este repositorio:** licencia MIT ([`LICENSE`](LICENSE)). Para citar, consulta
+  [`CITATION.cff`](CITATION.cff).
+  La licencia MIT se aplica al código de este repositorio; los datos de terceros conservan las
+  condiciones de sus respectivas fuentes.
