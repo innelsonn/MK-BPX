@@ -1,0 +1,326 @@
+\begin{thebibliography}{}
+
+\bibitem[Al-khedhairi, 2008]{al-khedhairi_simulated_2008}
+Al-khedhairi, A. (2008).
+\newblock Simulated annealing metaheuristic for solving {$p$}-median problem.
+\newblock {\em International Journal of Contemporary Mathematical Sciences},
+  3(28):1357--1365.
+
+\bibitem[AlBdaiwi and AboElFotoh, 2017]{albdaiwi_gpu-based_2017}
+AlBdaiwi, B.~F. and AboElFotoh, H. M.~F. (2017).
+\newblock A {GPU}-based genetic algorithm for the {$p$}-median problem.
+\newblock {\em The Journal of Supercomputing}, 73(10):4221--4244.
+
+\bibitem[Alidaee and Wang, 2022]{alidaee_uncapacitated_2022}
+Alidaee, B. and Wang, H. (2022).
+\newblock Uncapacitated (facility) location problem: A hybrid genetic-tabu
+  search approach.
+\newblock {\em {IFAC}-PapersOnLine}, 55(10):1619--1624.
+
+\bibitem[Alp et~al., 2003]{alp_efficient_2003}
+Alp, O., Erkut, E., and Drezner, Z. (2003).
+\newblock An efficient genetic algorithm for the {$p$}-median problem.
+\newblock {\em Annals of Operations Research}, 122(1--4):21--42.
+
+\bibitem[Basti and Sevkli, 2015]{basti_artificial_2015}
+Basti, M. and Sevkli, M. (2015).
+\newblock An artificial bee colony algorithm for the {$p$}-median facility
+  location problem.
+\newblock {\em International Journal of Metaheuristics}, 4(1):91--113.
+
+\bibitem[Beasley, 1985]{beasley_1985}
+Beasley, J.~E. (1985).
+\newblock A note on solving large {$p$}-median problems.
+\newblock {\em European Journal of Operational Research}, 21(2):270--273.
+
+\bibitem[Beasley, 1990]{beasley_or_library_1990}
+Beasley, J.~E. (1990).
+\newblock {OR-Library}: Distributing test problems by electronic mail.
+\newblock {\em Journal of the Operational Research Society}, 41(11):1069--1072.
+
+\bibitem[Correa et~al., 2004]{correa_genetic_2004}
+Correa, E.~S., Steiner, M. T.~A., Freitas, A.~A., and Carnieri, C. (2004).
+\newblock A genetic algorithm for solving a capacitated {$p$}-median problem.
+\newblock {\em Numerical Algorithms}, 35(2--4):373--388.
+
+\bibitem[Daskin and Maass, 2015]{laporte_p-median_2015}
+Daskin, M.~S. and Maass, K.~L. (2015).
+\newblock The {$p$}-median problem.
+\newblock In Laporte, G., Nickel, S., and Saldanha~da Gama, F., editors, {\em
+  Location Science}, pages 21--45. Springer International Publishing, Cham.
+
+\bibitem[Dem{\v{s}}ar, 2006]{demsar_2006}
+Dem{\v{s}}ar, J. (2006).
+\newblock Statistical comparisons of classifiers over multiple data sets.
+\newblock {\em Journal of Machine Learning Research}, 7(1):1--30.
+
+\bibitem[Derrac et~al., 2011]{derrac_2011}
+Derrac, J., Garc{\'\i}a, S., Molina, D., and Herrera, F. (2011).
+\newblock A practical tutorial on the use of nonparametric statistical tests as
+  a methodology for comparing evolutionary and swarm intelligence algorithms.
+\newblock {\em Swarm and Evolutionary Computation}, 1(1):3--18.
+
+\bibitem[Drezner et~al., 2015]{drezner_new_2015}
+Drezner, Z., Brimberg, J., Mladenovi{\'c}, N., and Salhi, S. (2015).
+\newblock New heuristic algorithms for solving the planar {$p$}-median problem.
+\newblock {\em Computers \& Operations Research}, 62:296--304.
+
+\bibitem[Duran-Mateluna et~al., 2023]{duran_mateluna_efficient_2023}
+Duran-Mateluna, C., Ales, Z., and Elloumi, S. (2023).
+\newblock An efficient {Benders} decomposition for the {$p$}-median problem.
+\newblock {\em European Journal of Operational Research}, 308(1):84--96.
+
+\bibitem[Efron and Tibshirani, 1993]{efron_tibshirani_1993}
+Efron, B. and Tibshirani, R.~J. (1993).
+\newblock {\em An Introduction to the Bootstrap}, volume~57 of {\em Monographs
+  on Statistics and Applied Probability}.
+\newblock Chapman \& Hall, New York.
+
+\bibitem[Garc{\'\i}a et~al., 2011]{garcia_2011}
+Garc{\'\i}a, S., Labb{\'e}, M., and Mar{\'\i}n, A. (2011).
+\newblock Solving large {$p$}-median problems with a radius formulation.
+\newblock {\em {INFORMS} Journal on Computing}, 23(4):546--556.
+
+\bibitem[Gwalani et~al., 2021]{gwalani_evaluation_2021}
+Gwalani, H., Tiwari, C., and Mikler, A.~R. (2021).
+\newblock Evaluation of heuristics for the {$p$}-median problem: {Scale} and
+  spatial demand distribution.
+\newblock {\em Computers, Environment and Urban Systems}, 88:101656.
+
+\bibitem[Hakimi, 1964]{hakimi_optimum_1964}
+Hakimi, S.~L. (1964).
+\newblock Optimum locations of switching centers and the absolute centers and
+  medians of a graph.
+\newblock {\em Operations Research}, 12:450--459.
+
+\bibitem[Hakimi, 1965]{hakimi_1965}
+Hakimi, S.~L. (1965).
+\newblock Optimum distribution of switching centers in a communication network
+  and some related graph theoretic problems.
+\newblock {\em Operations Research}, 13(3):462--475.
+
+\bibitem[Hansen and Mladenovi{\'c}, 1997]{hansen_variable_1997}
+Hansen, P. and Mladenovi{\'c}, N. (1997).
+\newblock Variable neighborhood search for the {$p$}-median.
+\newblock {\em Location Science}, 5(4):207--226.
+
+\bibitem[Hansen and Mladenovi{\'c}, 2001]{hansen_vns_2001}
+Hansen, P. and Mladenovi{\'c}, N. (2001).
+\newblock Variable neighborhood search: Principles and applications.
+\newblock {\em European Journal of Operational Research}, 130(3):449--467.
+
+\bibitem[Holm, 1979]{holm_1979}
+Holm, S. (1979).
+\newblock A simple sequentially rejective multiple test procedure.
+\newblock {\em Scandinavian Journal of Statistics}, 6(2):65--70.
+
+\bibitem[Irawan and Salhi, 2015]{irawan_salhi_2015}
+Irawan, C.~A. and Salhi, S. (2015).
+\newblock Solving large {$p$}-median problems by a multistage hybrid approach
+  using demand points aggregation and variable neighbourhood search.
+\newblock {\em Journal of Global Optimization}, 63(3):537--554.
+
+\bibitem[Jalali~Varnamkhasti and Jalali~Varnamkhasti, 2025]{amkhasti_2025}
+Jalali~Varnamkhasti, {\relax Me}. and Jalali~Varnamkhasti, {\relax Mo}. (2025).
+\newblock New technique for solving {$p$}-median problems based on fuzzy system
+  and genetic algorithm.
+\newblock {\em Journal of Intelligent Decision and Computational Modelling},
+  1(1):15--26.
+
+\bibitem[J{\'a}no{\v{s}}{\'\i}kov{\'a} et~al., 2017]{janosikova_hybrid_2017}
+J{\'a}no{\v{s}}{\'\i}kov{\'a}, {\v{L}}., Herda, M., and Haviar, M. (2017).
+\newblock Hybrid genetic algorithms with selective crossover for the
+  capacitated {$p$}-median problem.
+\newblock {\em Central European Journal of Operations Research},
+  25(3):651--664.
+
+\bibitem[Karatas and Yak{\i}c{\i}, 2019]{mumtaz_analysis_2019}
+Karatas, M. and Yak{\i}c{\i}, E. (2019).
+\newblock An analysis of {$p$}-median location problem: Effects of backup
+  service level and demand assignment policy.
+\newblock {\em European Journal of Operational Research}, 272(1):207--218.
+
+\bibitem[Kariv and Hakimi, 1979]{kariv_algorithmic_1979}
+Kariv, O. and Hakimi, S.~L. (1979).
+\newblock An algorithmic approach to network location problems. {II}: {The}
+  {$p$}-medians.
+\newblock {\em SIAM Journal on Applied Mathematics}, 37(3):539--560.
+
+\bibitem[K{\i}saboyun and Sonu{\c{c}}, 2025]{kisaboyun_hybrid_2025}
+K{\i}saboyun, S. and Sonu{\c{c}}, E. (2025).
+\newblock A hybrid genetic algorithm and simulated annealing approach for the
+  uncapacitated facility location problem.
+\newblock {\em Computer and Decision Making: An International Journal},
+  2:546--557.
+
+\bibitem[Liang et~al., 2025]{liang_aiam_2025}
+Liang, H., Wang, S., Li, H., Pan, J., Li, X., Su, C., and Liu, B. (2025).
+\newblock {AIAM}: {Adaptive} interactive attention model for solving
+  {$p$}-median problem via deep reinforcement learning.
+\newblock {\em International Journal of Applied Earth Observation and
+  Geoinformation}, 138:104454.
+
+\bibitem[Mar{\'\i}n and Pelegr{\'\i}n, 2019]{marin_p-median_2019}
+Mar{\'\i}n, A. and Pelegr{\'\i}n, M. (2019).
+\newblock {$p$}-median problems.
+\newblock In Laporte, G., Nickel, S., and Saldanha~da Gama, F., editors, {\em
+  Location Science}, pages 25--50. Springer International Publishing, Cham, 2nd
+  edition.
+
+\bibitem[Mladenovi{\'c} et~al., 2007]{mladenovic_p-median_2007}
+Mladenovi{\'c}, N., Brimberg, J., Hansen, P., and Moreno-P{\'e}rez, J.~A.
+  (2007).
+\newblock The {$p$}-median problem: {A} survey of metaheuristic approaches.
+\newblock {\em European Journal of Operational Research}, 179(3):927--939.
+
+\bibitem[{\"O}ks{\"u}z et~al., 2023]{oksuz_2023}
+{\"O}ks{\"u}z, M.~K., B{\"u}y{\"u}k{\"o}zkan, K., Bal, A., and Sato{\u{g}}lu,
+  {\c{S}}.~{\.I}. (2023).
+\newblock A genetic algorithm integrated with the initial solution procedure
+  and parameter tuning for capacitated {$p$}-median problem.
+\newblock {\em Neural Computing and Applications}, 35(8):6313--6330.
+
+\bibitem[{\"O}ks{\"u}z et~al., 2016]{oksuz_genetic_2016}
+{\"O}ks{\"u}z, M.~K., Sato{\u{g}}lu, {\c{S}}.~{\.I}., Kayakutlu, G., and
+  B{\"u}y{\"u}k{\"o}zkan, K. (2016).
+\newblock A genetic algorithm for the {$p$}-median facility location problem.
+\newblock In {\em Proceedings of the Global Joint Conference on Industrial
+  Engineering and Its Application Areas ({GJCIE} 2016)}, pages 382--389,
+  Istanbul, Turkey.
+
+\bibitem[Plastino et~al., 2011]{plastino_hybrid_2011}
+Plastino, A., Fuchshuber, R., Martins, S. d.~L., Freitas, A.~A., and Salhi, S.
+  (2011).
+\newblock A hybrid data mining metaheuristic for the {$p$}-median problem.
+\newblock {\em Statistical Analysis and Data Mining}, 4(3):313--335.
+
+\bibitem[Pullan, 2008]{pullan_population_2008}
+Pullan, W. (2008).
+\newblock A population based hybrid metaheuristic for the {$p$}-median problem.
+\newblock In {\em 2008 {IEEE} {Congress} on {Evolutionary} {Computation}
+  ({IEEE} {World} {Congress} on {Computational} {Intelligence})}, pages 75--82,
+  Hong Kong, China. IEEE.
+
+\bibitem[Reese, 2006]{reese_solution_2006}
+Reese, J. (2006).
+\newblock Solution methods for the {$p$}-median problem: An annotated
+  bibliography.
+\newblock {\em Networks}, 48(3):125--142.
+
+\bibitem[Reinelt, 1991]{reinelt_1991}
+Reinelt, G. (1991).
+\newblock {TSPLIB}---a traveling salesman problem library.
+\newblock {\em ORSA Journal on Computing}, 3(4):376--384.
+
+\bibitem[Resende and Werneck, 2003]{resende_werneck_2003_impl}
+Resende, M. G.~C. and Werneck, R.~F. (2003).
+\newblock On the implementation of a swap-based local search procedure for the
+  {$p$}-median problem.
+\newblock In Ladner, R.~E., editor, {\em Proceedings of the Fifth Workshop on
+  Algorithm Engineering and Experiments ({ALENEX} 2003)}, pages 119--127,
+  Baltimore, MD, USA. SIAM.
+
+\bibitem[Resende and Werneck, 2004]{resende_hybrid_2004}
+Resende, M. G.~C. and Werneck, R.~F. (2004).
+\newblock A hybrid heuristic for the {$p$}-median problem.
+\newblock {\em Journal of Heuristics}, 10(1):59--88.
+
+\bibitem[Resende and Werneck, 2007]{resende_fast_2007}
+Resende, M. G.~C. and Werneck, R.~F. (2007).
+\newblock A fast swap-based local search procedure for location problems.
+\newblock {\em Annals of Operations Research}, 150(1):205--230.
+
+\bibitem[ReVelle and Swain, 1970]{revelle_1970}
+ReVelle, C.~S. and Swain, R.~W. (1970).
+\newblock Central facilities location.
+\newblock {\em Geographical Analysis}, 2(1):30--42.
+
+\bibitem[Rosing and ReVelle, 1997]{rosing_revelle_1997}
+Rosing, K.~E. and ReVelle, C.~S. (1997).
+\newblock Heuristic concentration: two stage solution construction.
+\newblock {\em European Journal of Operational Research}, 97(1):75--86.
+
+\bibitem[Sevkli et~al., 2014]{sevkli_novel_2014}
+Sevkli, M., Mamedsaidov, R., and Camci, F. (2014).
+\newblock A novel discrete particle swarm optimization for {$p$}-median
+  problem.
+\newblock {\em Journal of King Saud University - Engineering Sciences},
+  26(1):11--19.
+
+\bibitem[Silva et~al., 2019]{silva_customized_2019}
+Silva, S., Costa, M., and Costa~Filho, C. (2019).
+\newblock Customized genetic algorithm for facility allocation using
+  {$p$}-median.
+\newblock In Ganzha, M., Maciaszek, L., and Paprzycki, M., editors, {\em
+  Proceedings of the 2019 Federated Conference on Computer Science and
+  Information Systems}, volume~18 of {\em Annals of Computer Science and
+  Information Systems}, pages 165--169.
+
+\bibitem[Sulaman et~al., 2022]{sulaman_comparative_2022}
+Sulaman, M., Golabi, M., Brévilliers, M., Lepagnot, J., and Idoumghar, L.
+  (2022).
+\newblock A comparative study of newly developed metaheuristics for the
+  discrete uncapacitated {$p$}-median problem.
+\newblock In {\em 2022 8th {International} {Conference} on {Control},
+  {Decision} and {Information} {Technologies} ({CoDIT})}, volume~1, pages
+  872--877.
+
+\bibitem[Teitz and Bart, 1968]{teitz_heuristic_1968}
+Teitz, M.~B. and Bart, P. (1968).
+\newblock Heuristic methods for estimating the generalized vertex median of a
+  weighted graph.
+\newblock {\em Operations Research}, 16(5):955--961.
+
+\bibitem[Tin{\'o}s et~al., 2015]{tinos_2015}
+Tin{\'o}s, R., Whitley, D., and Chicano, F. (2015).
+\newblock Partition crossover for pseudo-{B}oolean optimization.
+\newblock In {\em Proceedings of the 2015 ACM Conference on Foundations of
+  Genetic Algorithms XIII (FOGA '15)}, pages 137--149. ACM.
+
+\bibitem[Tin{\'o}s et~al., 2020]{tinos_2020}
+Tin{\'o}s, R., Whitley, D., and Ochoa, G. (2020).
+\newblock A new generalized partition crossover for the traveling salesman
+  problem: tunneling between local optima.
+\newblock {\em Evolutionary Computation}, 28(2):255--288.
+
+\bibitem[Wang et~al., 2023]{wang_solving_2023}
+Wang, C., Han, C., Guo, T., and Ding, M. (2023).
+\newblock Solving uncapacitated {$p$}-median problem with reinforcement
+  learning assisted by graph attention networks.
+\newblock {\em Applied Intelligence}, 53(2):2010--2025.
+
+\bibitem[Whitaker, 1983]{whitaker_1983}
+Whitaker, R.~A. (1983).
+\newblock A fast algorithm for the greedy interchange for large-scale
+  clustering and median location problems.
+\newblock {\em {INFOR}: Information Systems and Operational Research},
+  21(2):95--108.
+
+\bibitem[Whitley et~al., 2009]{whitley_2009}
+Whitley, D., Hains, D., and Howe, A. (2009).
+\newblock Tunneling between optima: partition crossover for the traveling
+  salesman problem.
+\newblock In {\em Proceedings of the 11th Annual Conference on Genetic and
+  Evolutionary Computation (GECCO '09)}, pages 915--922. ACM.
+
+\bibitem[Wilcoxon, 1945]{wilcoxon_1945}
+Wilcoxon, F. (1945).
+\newblock Individual comparisons by ranking methods.
+\newblock {\em Biometrics Bulletin}, 1(6):80--83.
+
+\bibitem[Xavier et~al., 2020]{xavier_combining_2020}
+Xavier, C.~M., Costa, M. G.~F., and Costa~Filho, C. F.~F. (2020).
+\newblock Combining facility-location approaches for public schools expansion.
+\newblock {\em {IEEE} Access}, 8:24229--24241.
+
+\bibitem[Zarate-Zapata et~al., 2023]{zapata_analysis_2023}
+Zarate-Zapata, A.-C., Gibaja-Romero, D.-E., S{\'a}nchez-Partida, D., and
+  Mart{\'\i}nez-Flores, J.-L. (2023).
+\newblock Analysis and location of vaccination centers in the municipality of
+  the state of {Puebla}, {M{\'e}xico} using the {$p$}-median problem.
+\newblock In Deschamps, F., Pinheiro~de Lima, E., Gouv{\^e}a~da Costa, S.~E.,
+  and Trentin, M.~G., editors, {\em Proceedings of the 11th International
+  Conference on Production Research -- Americas}, pages 1--15, Cham. Springer
+  Nature Switzerland.
+
+\end{thebibliography}

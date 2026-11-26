@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+# POPSTAR is the authors' program: obtained with tools/get_popstar.sh, never committed
+third_party/popstar/popstar
+third_party/popstar/popstar.tar.gz
+third_party/popstar/src/
+# distance matrices in POPSTAR format, written on demand by tools/export_pmm.py (several GB)
+data/pmm/
+# LaTeX by-products
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+# scratch result directories
+results_new*/
+results_tmp*/
+.DS_Store

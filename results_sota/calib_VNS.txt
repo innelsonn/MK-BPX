@@ -1,0 +1,12 @@
+VNS fl1400 100 0 iters now 787 logged 742 ratio 1.061 | best now 15970 logged 15970
+VNS fl1400 100 1 iters now 724 logged 707 ratio 1.024 | best now 15970 logged 15970
+VNS fl1400 100 2 iters now 856 logged 684 ratio 1.251 | best now 15970 logged 15970
+VNS u1432 300 0 iters now 1281 logged 1196 ratio 1.071 | best now 124099 logged 124099
+VNS u1432 300 1 iters now 1439 logged 1359 ratio 1.059 | best now 124176 logged 124176
+VNS u1432 300 2 iters now 1205 logged 1162 ratio 1.037 | best now 124527 logged 124527
+VNS d2103 500 0 iters now 1600 logged 1338 ratio 1.196 | best now 64425 logged 64449
+VNS d2103 500 1 iters now 1543 logged 1273 ratio 1.212 | best now 64439 logged 64493
+VNS d2103 500 2 iters now 1407 logged 1292 ratio 1.089 | best now 64465 logged 64465
+VNS rl1304 50 0 iters now 572 logged 570 ratio 1.004 | best now 795012 logged 795012
+VNS rl1304 50 1 iters now 611 logged 590 ratio 1.036 | best now 795012 logged 795012
+VNS rl1304 50 2 iters now 581 logged 581 ratio 1.000 | best now 795012 logged 795012

@@ -1,0 +1,12 @@
+BPX fl1400 100 0 iters now 797 logged 795 ratio 1.003 | best now 15962 logged 15962
+BPX fl1400 100 1 iters now 621 logged 632 ratio 0.983 | best now 15962 logged 15962
+BPX fl1400 100 2 iters now 859 logged 811 ratio 1.059 | best now 15962 logged 15962
+BPX u1432 300 0 iters now 1857 logged 1785 ratio 1.040 | best now 123771 logged 123771
+BPX u1432 300 1 iters now 2059 logged 2003 ratio 1.028 | best now 123812 logged 123894
+BPX u1432 300 2 iters now 1873 logged 1880 ratio 0.996 | best now 123876 logged 123876
+BPX d2103 500 0 iters now 2685 logged 2375 ratio 1.131 | best now 64312 logged 64345
+BPX d2103 500 1 iters now 2509 logged 2187 ratio 1.147 | best now 64198 logged 64252
+BPX d2103 500 2 iters now 2343 logged 2164 ratio 1.083 | best now 64213 logged 64231
+BPX rl1304 50 0 iters now 554 logged 528 ratio 1.049 | best now 795012 logged 795012
+BPX rl1304 50 1 iters now 565 logged 565 ratio 1.000 | best now 795012 logged 795012
+BPX rl1304 50 2 iters now 546 logged 591 ratio 0.924 | best now 795012 logged 795012

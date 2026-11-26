@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite the article below."
+title: "MK-BPX: balanced partition crossover for the p-median problem"
+type: software
+authors:
+  - family-names: "Rivero Sotelo"
+    given-names: "Fermín Antonio"
+    affiliation: "Department of Industrial Engineering, University of Córdoba, Montería, Colombia"
+  - family-names: "Montes Villalba"
+    given-names: "Nelson David"
+    affiliation: "Department of Industrial Engineering, University of Córdoba, Montería, Colombia"
+  - family-names: "Hernández Riaño"
+    given-names: "Helman Enrique"
+    affiliation: "Department of Industrial Engineering, University of Córdoba, Montería, Colombia"
+  - family-names: "López Pereira"
+    given-names: "Jorge Mario"
+    affiliation: "Department of Industrial Engineering, University of Córdoba, Montería, Colombia"
+repository-code: "https://github.com/ferminriv20/HGA-EBMKI"
+preferred-citation:
+  type: unpublished
+  title: "Balanced Partition Crossover for the p-Median Problem: A Multi-Kick Memetic Algorithm"
+  authors:
+    - family-names: "Rivero Sotelo"
+      given-names: "Fermín Antonio"
+    - family-names: "Montes Villalba"
+      given-names: "Nelson David"
+    - family-names: "Hernández Riaño"
+      given-names: "Helman Enrique"
+    - family-names: "López Pereira"
+      given-names: "Jorge Mario"
+  year: 2026
+  notes: "Manuscript submitted for publication"
